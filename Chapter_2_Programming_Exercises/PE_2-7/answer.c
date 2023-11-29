@@ -2,9 +2,7 @@
 
 #include <stdio.h>
 
-void print_smile(void) {
-    printf("Smile!");
-}
+void print_smile(void);
 
 int main(void) {
     print_smile();
@@ -20,4 +18,8 @@ int main(void) {
     printf("\n");
     
     return 0;
+}
+
+void print_smile(void) {
+    printf("Smile!");
 }
