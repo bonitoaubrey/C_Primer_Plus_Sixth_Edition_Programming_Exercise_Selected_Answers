@@ -1,4 +1,4 @@
-/* Programming Exercise 2-7 */ 
+/* Programming Exercise 2-8 */
 
 #include <stdio.h>
 
