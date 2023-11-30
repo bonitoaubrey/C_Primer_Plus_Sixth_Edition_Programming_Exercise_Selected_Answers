@@ -1,4 +1,4 @@
-/* Programming Exercise 5-2 */
+/* Programming Exercise 2-5 */
 
 #include <stdio.h>
 
@@ -14,7 +14,7 @@ int main(void) {
     ic();
     printf(",");
     printf("\n");
-    
+
     br();
     printf("\n");
 
