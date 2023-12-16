@@ -2,15 +2,14 @@
 
 #include <stdio.h>
 
-const double sec_in_year = 3.156e10;
+const float SECONDS_IN_YEAR = 3.156e10;
 
 int main(void) {
-    int year;
-
-    printf("Enter your age: ");
-    scanf("%d", &year);
-
-    printf("You age in seconds is: %.3e\n", year * sec_in_year);
+    float age;
+    printf("Enter your age in years: ");
+    scanf("%f", &age);
+    printf("Your age in seconds: %.3e", 
+           age * SECONDS_IN_YEAR);
 
     return 0;
 }
