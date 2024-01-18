@@ -1,4 +1,4 @@
-/* Programming Exercise 2-7 */ 
+/* Programming Exercise 2-7 */
 
 #include <stdio.h>
 
@@ -16,7 +16,7 @@ int main(void) {
 
     print_smile();
     printf("\n");
-    
+
     return 0;
 }
 
