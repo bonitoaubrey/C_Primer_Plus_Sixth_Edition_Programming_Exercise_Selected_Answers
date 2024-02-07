@@ -4,9 +4,10 @@
 
 int main(void) {
     char c;
+
     printf("Enter an ASCII code value: ");
     scanf("%d", &c);
-    printf("Character having that ASCII: %c\n", c);
+    printf("The character %d have that ASCII code: %c\n", c, c);
 
     return 0;
 }
