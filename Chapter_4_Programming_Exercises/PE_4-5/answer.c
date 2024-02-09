@@ -4,14 +4,15 @@
 
 int main(void) {
     float download_speed;
-    float file_size;
+    float size_of_file;
 
-    printf("Write download speed in megabits per second: ");
+    printf("Enter download speed in megabits per second: ");
     scanf("%f", &download_speed);
-    printf("Write size of a file in megabytes: ");
-    scanf("%f", &file_size);
-    printf("At %.2f megabites per second, a file of %.2f megabytes downloads in %.2f seconds\n",
-           download_speed, file_size, file_size * 8 / download_speed);
+    printf("Enter size of a file in megabytes: ");
+    scanf("%f", &size_of_file);
+
+    printf("At %.2f megabits per second, a file of %.2f megabytes downloads in %.2f seconds.\n",
+           download_speed, size_of_file, size_of_file * 8 / download_speed);
 
     return 0;
 }
