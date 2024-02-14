@@ -3,12 +3,11 @@
 #include <stdio.h>
 
 int main(void) {
-    float number;
+    float num;
 
-    printf("Write float-poin number: ");
-    scanf("%f", &number);
-    printf("The input is %.1f or %.1e\n", number, number);
-    printf("The input is %+.3f or %.3E\n", number, number);
+    printf("Input float-point number:\n");
+    scanf("%f", &num);
 
-    return 0;
+    printf("a. The input is %.1f of %.1e.\n", num, num);
+    printf("b. The input is %+.3f of %.3E.\n", num, num);
 }
