@@ -10,7 +10,7 @@ int main(void) {
     printf("Enter an amount of water in quarts: ");
     scanf("%lf", &water_quarts);
 
-    printf("The number of water molecules in that amount: %e",
+    printf("The number of water molecules in that amount: %e\n",
            water_quarts * QUART_OF_WATER_MASS / MOLECULE_OF_WATER_MASS);
 
     return 0;
