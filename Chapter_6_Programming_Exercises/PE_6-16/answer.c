@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 int main(void) {
-    float Daphne = 110;
-    float Deirdre = 105;
-    int year = 1;
+    float Daphne = 100;
+    float Deirdre = 100;
+    int year;
 
-    for (year = 1; Daphne > Deirdre; year++) {
+    for (year = 0; Daphne >= Deirdre; year++) {
         Daphne += 10;
         Deirdre += Deirdre * 5 / 100;
     };
