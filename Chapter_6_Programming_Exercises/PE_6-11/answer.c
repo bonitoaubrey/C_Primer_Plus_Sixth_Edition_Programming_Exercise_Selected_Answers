@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 int main(void) {
-    int array[11];
+    int array[8];
 
-    printf("Enter eight integers: ");
+    printf("Enter eight integers:\n");
     
     for (int i = 0; i < 8; i++)
         scanf("%d", &array[i]);
